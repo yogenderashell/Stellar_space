@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+:root {
+  --primary-color: #121421;
+  --text-primary: #ffffff;
+  --line: #1f2037;
+  --primary-button: #2c4be9;
+  --secondary-button: #232a47;
+  --text-secondary: #79809b;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+a:active{
+  background: transparent;
+}

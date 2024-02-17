@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+:root{
+    --primary-color: #121421;
+    --text-primary: #FFFFFF;
+    --text-secondary: #79809B;
+    --line: #1F2037;
+    --primary-button : #2C4BE9;
+    --secondary-button: #232A47;
+}
+.featured-missions{
+    margin: 50px 0;
+    height: 475px
+}
+.featured-missions *{
+    font-family: 'Inter', sans-serif;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card{
+    width: 280px;
+    height: 250px;
+}
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+.card h3{
+    margin-left: 4px;
+    margin-top: 12px;
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 400;
+}
+.card p{
+    color: var(--text-secondary);
+    margin-left: 4px;
+    margin-top: 4px;
+}
+@media only screen and (max-width: 600px){
+    .featured-missions{
+        height: 1660px;
+    }
+    .card{
+        height: 400px;
+    }
+}
